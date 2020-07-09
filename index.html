@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Origami Shiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    .navbar-header-custom{
+        padding-left: 40%;
+    }
+    .img-about{
+        padding-left: 25%;
+        height: 200px;
+        
+    }
+
+    .navbar-brand {
+        position: relative;
+        width: 170px;
+        left: 15px;
+        height: 90px;
+        padding-left: 50%;
+        background-size: contain;
+    }
+
+    .navbar-brand img{
+        height: 130%;
+        width: 120px;
+    }
+
+
+    .navbar-custom{
+        background-color: #ff1f43;
+    }
+
+    .navbar a{
+        color: white;
+
+    }
+    html{
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content { height: 550px }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    .nav-list{
+        padding-top: 5%;
+    }
+
+    .mid-abt{
+        height: 150%;
+    }
+
+    .mid-abt .row{
+        /*height: 50%;*/
+    }
+
+    .pic-row{  height: 25%;  }
+
+    body{
+        min-height: 100%;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+          <div class="navbar-header navbar-header-custom">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="Images/LogoFinal.png" alt="" height="50px">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li class="active"><a href="Designs.html">Designs</a></li>
+              <li><a href="Stamps.html">Stamps</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+    <div class="container-fluid text-center d-flex">    
+        <div class="row content">
+            <div class="col-sm-2 sidenav mid-abt">
+                <form class="form-inline">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                    aria-label="Search" style="width: 100%;">
+                </form>
+            </div>
+            <div class="col-sm-8 text-left mid-abt"> 
+                <h1 class="text-center">WELCOME</h1>
+                <p class="text-center" style="margin-bottom: 40px;">What is Origami Friends? Well, Origami Friends is the attempt of a bunch of game designers to take a new spin on chain letters, and use them as a positive means of reaching out to friends and families, especially during quarantine, when the distance between us can feel further apart than ever before. </p>
+                <img style="height: 50%; width:100%; padding-left: 2%;"   src="Images/frogHome.png" alt="" srcset="">
+                <p class="text-left" style=" margin-top: 20px;">The goal is simple! Pick a design from our Designs tab (they are labeled by difficulty level, so don’t worry if you have never done origami before!), and print the provided pdf from your printer. It may not look like much now, but if you follow the instructions on the Designs tab carefully, you’ll soon have a nifty Origami Friend of your own. Now grab a letter, and place your masterpiece inside, ready to send to a family or friend, near or far! Don’t be afraid to add a little letter of your own to travel with your origami. Say how you are, what you have been up to lately, maybe how any pets of yours are doing. Encourage them to visit this website!</p>
+                <p class="text-left" style="margin-bottom: 40px;">When they receive your Origami friend, they should find a handy-dandy QR code, easily visible on the design. Scan it with a smart device, or type in the accompanying url into the browser of your choice, and Tada! You’ve just introduced someone to the wonders of Origami Friends, and now they’re ready to make their own set of friends, to mail and spread the positivity even more.</p>
+
+            </div>
+
+            <div class="col-sm-2 sidenav mid-abt">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

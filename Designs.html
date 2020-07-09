@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Origami Shiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    .navbar-header-custom{
+        padding-left: 40%;
+    }
+    .img-about{
+        padding-left: 25%;
+        height: 200px;
+        
+    }
+
+    .navbar-brand {
+        position: relative;
+        width: 170px;
+        left: 15px;
+        height: 90px;
+        padding-left: 50%;
+        background-size: contain;
+    }
+
+    .navbar-brand img{
+        height: 130%;
+        width: 120px;
+    }
+
+
+    .navbar-custom{
+        background-color: #ff1f43;
+    }
+
+    .navbar a{
+        color: white;
+
+    }
+    html{
+        min-height: 100%;
+        height: 100%;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content { height: 550px }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    .nav-list{
+        padding-top: 5%;
+    }
+
+    .mid-abt{
+        height: 500%;
+    }
+
+    .mid-abt .row{
+        /*height: 50%;*/
+    }
+
+    .pic-row{  height: 25%;  }
+
+    body{
+        min-height: 100%;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+          <div class="navbar-header navbar-header-custom">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="Images/LogoFinal.png" alt="" height="50px">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li class="active"><a href="Designs.html">Designs</a></li>
+              <li><a href="Stamps.html">Stamps</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+    <div class="container-fluid text-center d-flex">    
+        <div class="row content">
+            <div class="col-sm-2 sidenav mid-abt">
+                <form class="form-inline">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                    aria-label="Search" style="width: 100%;">
+                </form>
+            </div>
+            <div class="col-sm-8 text-left mid-abt"> 
+                <h1 class="text-center">Designs</h1>
+                <div class="row" style="padding: 20px;">
+                    <div class="col-sm-6" style="line-height: 30px; font-size: large;">
+                        <h1>Origami Heart</h1>
+                        <p>
+                            Looking for somewhere simple to start? Try an origami heart, to show your friends a little love in the dark. Print the design, and follow the instructions below and you should find yourself with a paper heart in no time at all. 
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="Images/Heart_Diagram.png" style="width: 100%; height: 500px;" alt="">
+                    </div>
+                </div>
+                <div class="row" style="padding-left: 10px; padding-right: 10px;">
+                    <iframe src="Images/heartpdf.pdf" width="100%" height="600px" style="margin-top: 20px; ">
+                    </iframe>
+                </div>
+                <div class="row" style="padding-bottom: 20px;">
+                    <div class="col-sm-6" style="line-height: 30px; font-size: large;">
+                        <h1>Origami Frog</h1>
+                        <p>
+                            Want something a little more challenging? An origami jumping frog makes for a great gift, a balance between something cute, and something fun! Just push on its back and it will leap and flip around.  Print the design, and follow the instructions below and you should find yourself with a paper frog friend to jump and bring joy to whomever you send it to.                         </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-12" style="padding-bottom: 20px;">
+                                <img src="Images/frogp1.png" style="width: 100%; height: 400px;" alt="">
+                            </div>
+                            <div class="col-sm-12">
+                                <img src="Images/frogp2.png" style="width: 100%; height: 400px;" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-left: 10px; padding-right: 10px;">
+                    <iframe src="Images/frogpdf.pdf" width="100%" height="600px" style="margin-top: 20px;">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="col-sm-2 sidenav mid-abt">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
